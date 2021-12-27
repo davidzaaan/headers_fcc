@@ -29,7 +29,7 @@ app.get("/api/hello", function (req, res) {
 // Challenge project
 app.get('/api/whoami', (req, res) => {
   res.json({
-    ipadress: req.headers.host,
+    ipaddress: req.headers.host,
     language: req.headers['accept-language'],
     software: req.headers['user-agent']
   })
